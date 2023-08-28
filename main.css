@@ -60,11 +60,42 @@ p {
     justify-content: space-around;
 }
 
-h2 {
+h2,
+h3 {
     font-size: 30px;
-    padding: 8px;
     font-family: 'Roboto Slab', serif;
     padding: 20px auto;
     border-style:inherit
     
+}
+
+form input,
+form button {
+    display: block;
+    width: 250px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 16px;
+    
+
+}
+
+h3 {
+    font-size: 25px;
+    padding: 8px;
+    margin-bottom: 8px;
+    display:flex;
+    margin-left: 16px;
+
+}
+
+form button {
+    background-color: red;
+    color: #fff;
+    border:none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(109, 46, 57);
 }
